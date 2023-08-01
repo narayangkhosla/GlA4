@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Macondo';
+    box-sizing: border-box;
+}
+
+.item {
+    border: 3px solid blue;
+    background-color: grey;
+    padding: 12px 3px;
+    margin: 12px 3px;
+}
+
+/* 1pixel = 1/96th of an inch */
+
+.container {
+    border: 2px solid red;
+    background-color: lightblue;
+    margin: auto;
+    /* the above line will place the box in the middle of the screen(viewport) */
+    /* When applied on the X-axis, it will leave an equal space from both left and right sides */
+    /* 1000px = 900px = 100px = 50px */
+    width: 900px;
+}
+
+#fruits {
+    float: left;
+    width: 48%;
+    /* 50% - 50% + padding + margin */
+}
+
+#computer {
+    float: right;
+    width: 48%;
+}
+
+#stationary {
+    /* float: left; */
+    clear: both;
+    width: 99%;
+}
+
+/* #glasses {
+    float: left;
+    width: 99%;
+} */
+
+h3 {
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+}

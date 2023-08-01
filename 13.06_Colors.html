@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #firstPara {
+            color: palevioletred;
+        }
+
+        #secondPara {
+            /* the values can be between 0 to 255 */
+            /* rgb is a function */
+            /* a  - alpha parameter 0 to 1*/
+            /* ctrl / */
+            color: rgb(25, 207, 122);
+            color: rgba(152, 218, 187, 0.3);
+        }
+
+        #thirdPara {
+            /* r(1f) g(3f) b(f3) */
+            color: #2842d8;
+        }
+
+        #fourthPara {
+            /* hue - degree of the field from 0 to 360. 0 is red, 120 green, 240 blue 
+            saturation - %age value
+            lightness - %age value, 0% is black, 50% is somewhere in between, 100% white)
+            */
+            color: hsl(305, 67%, 48%);
+            background-color: hsla(305, 67%, 48%, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is my first box</h2>
+    <p id="firstPara">This is a paragraph in the first box</p>
+    <p id="secondPara">This is a paragraph in the first box</p>
+    <p id="thirdPara">This is a paragraph in the first box</p>
+    <p id="fourthPara">This is the fourth paragraph in the first box</p>
+
+</body>
+
+</html>

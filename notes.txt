@@ -1,0 +1,97 @@
+
+    <!-- emmet takes div by default 
+        selector.className#id{content}
+    -->
+
+css - cascading style sheets
+- gives style to raw HTML
+- used to make web pages responsiveness - 
+- makes the website beautiful and modern looking. 
+
+- separation of concerns - 
+- dry - do not repeat
+
+selector{
+    property : value;
+}
+
+p{
+    color: red;
+}
+h1{
+    color: red;
+}
+span{
+    color: red;
+}
+// multiple selectors
+p, h1, span{
+    color:blue;
+}
+
+-- three ways to join css file with HTML
+-- internal, external, inline
+internal - within the head tag in the html file
+external - in an external sheet
+inline - 
+
+who has got the highest precedance?
+inline - 
+internal or external? neither of them
+whichever code is written at the last, will take the priority.
+
+selectors in css
+are used to find the element whose property will be set.
+types of css selectors- 
+a. element selector h1
+b. id selector #
+c. class selector .
+d. grouping selector h1, p
+
+FONTS
+web safe fonts - the common fonts that come as pre-installed with the operating system.
+web fonts - import from the internet (web)
+
+English and Maths
+
+Colors
+1. By name
+2. by RGB (Red, Green, bLue)
+3. by HEX
+4. by HSL (Hue, Saturation, Lightness)
+
+14th June 2023
+The actual width of an element includes the padding/margin/border.
+Box-sizing property - the height and width becomes FIXED. If you add padding/margin/border, it wil be adjusted accordingly i.e., it will keep the height and width values intact.
+
+15th June 2023
+Background-color => can only set the background-color for that element.
+
+Background => can be used to SET all the background properties for an element (including the color)
+
+16th June 2023
+
+Display property
+
+display: block; will take thw whole width. We do not set the width - takes the space automatically, however, we can reduce the width and put margin:auto to bring the container to the centre.
+
+display: inline; will take the necessary width.
+
+display: inline-block; When we want to make the element inline (from block) and also be able to set the width.
+
+CSS Positions
+relative = relative to its normal position, and will leave a gap at its normal position
+absolute = relative to its first parent's position
+FIXED = the element will stay at a fixed position when you scroll the page. it positions the element relative to the browser window.
+STICKY = the element will remain in a sticky position when you scroll the page, and then it behaves like fixed.
+static
+
+benefit to use sticky:
+you are able to display the "information" about an element ONLY WHEN it is in the view, even if you scroll down. e.g. you can make sticky headers.
+
+
+
+
+
+
+

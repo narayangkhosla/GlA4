@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myYellowDiv {
+            width: 75px;
+            height: 75px;
+            background-color: yellow;
+            border: 1px solid;
+            position: absolute;
+            /* the below will move the yellow box RELATIVE to the blue box
+            By default, the absolute is relative to the actual page border but the behavior changes when it comes inside another box.
+            */
+            /* left: 20px;
+            top: 15px; */
+            right: 30px;
+            bottom: 40px;
+        }
+
+
+        /* situation = when the parent is relative and the child is absolute */
+        #myBlueDiv {
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            /* position: absolute; */
+            position: relative;
+            /*  from the right of the page */
+            /* right: 20px;
+            top: 20px; */
+        }
+
+        #myRedDiv {
+            width: 50px;
+            height: 50px;
+            background-color: lightcoral;
+            /* the parent can have any position except for static */
+            position: absolute;
+            left: 3px;
+            top: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- combining relative and absolute positions -->
+    <!-- 1. added another div in the body -->
+
+    <div id="myBlueDiv">
+        <div id="myYellowDiv">
+            <div id="myRedDiv"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
